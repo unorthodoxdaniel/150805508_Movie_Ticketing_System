@@ -22,7 +22,9 @@ input{
     border-width: 0px;
     padding-left: 20px;
     border-radius: 2px;
+    margin-bottom: 20px;
 }
+
 
 select {
     width: 100%;
@@ -45,4 +47,19 @@ select {
 */
 .center-text {
     text-align: center;
+}
+
+
+.movie-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#movie {
+    display: flex;
+    flex-direction: row;
+}
+
+#poster {
+    width: 25%;
 }
